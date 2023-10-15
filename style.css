@@ -1,0 +1,345 @@
+/* manrope-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/manrope-v15-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/manrope-v15-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  width: 1515px;
+  background: #080c20;
+  font-family: "Manrope", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 2644px;
+  position: relative;
+}
+.container__maker img {
+  width: 120px;
+  height: 35px;
+  margin-top: 81px;
+  margin-left: 165px;
+}
+.container__img1 {
+  position: absolute;
+  top: 230px;
+  left: 0;
+}
+.container__img2 {
+  position: absolute;
+  top: 212.81px;
+  left: 451.5px;
+}
+.container__img3 {
+  position: absolute;
+  top: 238px;
+  right: 0;
+}
+.content__work {
+  display: flex;
+  flex-direction: column;
+  width: 730px;
+  color: #fff;
+  margin-left: 355px;
+  align-items: center;
+  position: relative;
+}
+.content__work img {
+  width: 26px;
+  height: 42px;
+}
+.content__work h2 {
+  color: #fff;
+  margin-top: 185px;
+  width: 540px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+}
+.content__work p {
+  width: 540px;
+  color: #777f98;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  padding-top: 24px;
+  padding-bottom: 64px;
+}
+.content__group {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 1110px;
+  margin-top: 272px;
+  margin-left: 165px;
+}
+.content__group img {
+  width: 160px;
+  height: 164px;
+}
+.content__group h5 {
+  color: #fff;
+  padding-top: 48px;
+  font-size: 18px;
+  font-weight: 800;
+}
+.content__group p {
+  color: #777f98;
+  padding-top: 23px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  width: 255px;
+}
+.money {
+  margin-top: 48px;
+}
+.car {
+  margin-top: 48px;
+}
+.content__plans {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 540px;
+  margin-top: 202px;
+  margin-left: 450px;
+  gap: 24px;
+}
+.content__plans h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+}
+.content__plans p {
+  color: #777f98;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.content__free__month {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 920px;
+  height: 482px;
+  margin-top: 72px;
+  margin-left: 260px;
+}
+.free {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  height: 425px;
+  position: relative;
+  background: #093f68;
+  border-radius: 8px;
+  margin-top: 45px;
+  padding-left: 38.5px;
+  padding-top: 49px;
+}
+.free h5 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 25px;
+}
+.free p {
+  color: #fff;
+  width: 369px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  padding-top: 19px;
+}
+.checkbox__p {
+  display: flex;
+  flex-direction: row;
+  gap: 15.32px;
+}
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 28.9px;
+  margin-top: 28.77px;
+}
+.checkbox img {
+  width: 11.363px;
+  height: 8.098px;
+}
+.p {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 19px;
+}
+.p h6 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.free h3 {
+  padding-top: 24px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+}
+.month {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  margin-top: 33px;
+  height: 449px;
+  background: #3ee9e5;
+  border-radius: 8px;
+  position: relative;
+  padding: 61px 38px;
+}
+.month h5 {
+  color: #080c20;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 25px;
+}
+.month p {
+  color: #080c20;
+  width: 369px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  padding-top: 19px;
+}
+.monthly {
+  width: 205px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  gap: 7.5px;
+}
+.monthly h3 {
+  color: #080c20;
+  font-size: 40px;
+  font-weight: 800;
+}
+.monthly p {
+  color: #080c20;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.checkbox__p2 {
+  display: flex;
+  flex-direction: row;
+  gap: 15.32px;
+}
+
+.checkbox2 {
+  margin-top: 28.77px;
+  display: flex;
+  flex-direction: column;
+  gap: 28.9px;
+}
+.checkbox2 img {
+  width: 11.363px;
+  height: 8.098px;
+}
+.p2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 19px;
+}
+.p2 h6 {
+  color: #080c20;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.position1 {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: -23px;
+  left: 38px;
+}
+.position2 {
+  position: absolute;
+  width: 51px;
+  height: 65px;
+  top: -33px;
+  left: 37px;
+}
+.footer__position {
+  position: absolute;
+  bottom: 117px;
+}
+.footer__position img {
+  width: 1664px;
+}
+.footer__get {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  position: relative;
+  width: 730px;
+  margin-left: 359px;
+  margin-top: 203px;
+  align-items: center;
+}
+.footer__get h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+}
+.email__button {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.email__button input {
+  width: 320px;
+  height: 48px;
+  border-radius: 24px;
+  background: #093f68;
+  border: 0;
+  padding-left: 16px;
+}
+.email__button input::placeholder {
+  color: #fff;
+  opacity: 0.4;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 25px;
+}
+.email__button button {
+  width: 140px;
+  height: 48px;
+  border-radius: 24px;
+  background: #3ee9e5;
+  color: #093f68;
+  border: 0;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 25px;
+}
